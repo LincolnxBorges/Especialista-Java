@@ -8,5 +8,8 @@ public class OperadoresComparacao {
 
         boolean cargaExcedida = pesoprodutos > limitePesoCaminhao;
         System.out.printf("Carga excedida: %b%n", cargaExcedida);
+
+        boolean cargaLiberada = pesoprodutos <= limitePesoCaminhao;
+        System.out.printf("Carga liberada: %b%n", cargaLiberada);
     }
 }
